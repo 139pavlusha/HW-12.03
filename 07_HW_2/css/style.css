@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+*{transition: all .1 ease-in;}
+
+.window {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 30px;
+    background-color: rgb(97, 97, 97);
+}
+
+.Title {
+    padding: 15px 0 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(255, 80, 80);
+}
+
+header p {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 80, 80);
+}
+
+main {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+.check-line:nth-child(odd) {
+    background: #88839e;
+}
+
+.check-line:nth-child(even) {
+    background: #625e77;
+}
+
+.check-line {
+    height: 50px;
+    display: flex;
+    padding: 5px;
+}
+
+.check {
+    margin: 16px;
+    transform: scale(2);
+}
+
+label {
+    color: white;
+}
+
+.bon-app {
+    margin-top: 30px;
+    height: 65px;
+    background-color: rgb(97, 97, 97);
+}
+
+.bon-app p {
+    color: rgb(255, 80, 80);
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.check-line:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    background-color: rgb(59, 59, 59);
+}
+
+.check:checked + label{
+    text-decoration: line-through;
+    color: rgb(90, 90, 90);
+}
+
+.check:checked.check-line{
+    background-color: rgb(179, 179, 179);
+}
+
+.check-line:active {
+    background-color: rgb(250, 107, 107);
+}

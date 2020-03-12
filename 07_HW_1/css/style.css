@@ -1,0 +1,64 @@
+.phone {
+    fill: white;
+    margin: 16px 20px;
+}
+
+.speed {
+    fill: white;
+    margin: 17px 18px;
+}
+
+.settings {
+    fill: white;
+    margin: 18px 18px;
+}
+
+.circle-sp,
+.circle-st,
+.circle-ph {
+    margin: 55px auto 20px;
+    width: 66px;
+    height: 66px;
+    border-radius: 45px;
+    background-color: #1175b9;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.circle-sp:hover {
+    border: 1px solid #1175b9;
+    background-color: white;
+}
+
+.circle-sp:hover .speed{
+    fill: #1175b9;
+}
+
+.circle-st:hover {
+    border: 1px solid #1175b9;
+    background-color: white;
+}
+
+.circle-st:hover .settings{
+    fill: #1175b9;
+}
+
+.circle-ph:hover {
+    border: 1px solid #1175b9;
+    background-color: white;
+}
+
+.circle-ph:hover .phone{
+    fill: #1175b9;
+}
+
+
+
